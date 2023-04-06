@@ -6,8 +6,6 @@ function receivesAFunction(cb) {
 }
 
 
-// const returnsANamedFunction = () => receivesAFunction;
-
 function returnsANamedFunction() {
     return receivesAFunction;
 }
